@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <color name="colorPrimary">#fb8c00</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <!--<color name="colorAccent">#FF4081</color>-->
+    <color name="colorAccent">#fb8c00</color>
+
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorNavigation">#de000000</color>
+    <color name="colorTabIndicator">#ffee58</color>
+    <color name="colorTabText">#b3ffffff</color>
+    <color name="colortextGrew">#9e9e9e</color>
+
+    <color name="lightgrew">#e6e4e4</color>
+
+</resources>

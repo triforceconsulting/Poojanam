@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Namami</string>
+    <string name="cng_marathi">मराठी</string>
+    <!--<string name="str_stotram_ayyappa">अयप्पा स्तोत्रं</string>
+    <string name="str_stotram_baalaji">बालाजी स्तोत्रं</string>
+    <string name="str_stotram_durga_maatha">दुर्गामाते स्तोत्रं</string>
+    <string name="str_stotram_ganesh">गणेश स्तोत्रं</string>
+    <string name="str_stotram_gauri_maatha">गौरीमाते स्तोत्रं</string>
+    <string name="str_stotram_lakshmi_devi">लक्ष्मी देवी स्तोत्रं</string>
+    <string name="str_stotram_narasimha">नरसिंह स्तोत्रं</string>
+    <string name="str_stotram_sai_baba">साई बाबा स्तोत्रं</string>
+    <string name="str_stotram_shiva">शिव स्तोत्रं</string>-->
+    <string name="str_txt_anant_puja">अनंत पूजा</string>
+
+    <string name="str_txt_griha_pravesha_puja">गृहप्रभू पूजा</string>
+    <string name="str_txt_jyesta_gauri_puja">ज्येष्ठ गौरी पूजा</string>
+    <string name="str_txt_kojagari_lakshmi_puja">कोजगिरी लक्ष्मी पूजा</string>
+
+    <string name="str_txt_shiva_puja">शिव पूजा</string>
+    <string name="str_txt_ganesh_puja">श्री पार्थिव गणपती पूजा</string>
+    <string name="str_txt_mangala_gauri">मंगल गौरी पूजा</string>
+    <string name="str_txt_satyanarayan_puja">श्री सत्यनारायण पूजा</string>
+    <string name="str_stotram_dattatreya">दत्तात्रेय कष्ट नाष्टा स्तोत्रं</string>
+    <string name="str_stotram_ganpati_athravshisha">गणपती अष्टविशीर्ष स्तोत्रं</string>
+    <string name="str_stotram_ganpati_sukta">गणपती सूक्ष्म स्तोत्रं</string>
+    <string name="str_stotram_mahalakshmi_ashtakam">महालक्ष्मी अष्टकम स्तोत्रं</string>
+    <string name="str_stotram_maruti">मारुती स्तोत्रं</string>
+    <string name="str_stotram_navgraha">नवग्रह स्तोत्रं</string>
+    <string name="str_stotram_purusha_sukta">पुरुष सूक्ता स्तोत्रं</string>
+    <string name="str_stotram_ramaraksha">रामरक्षा स्तोत्रं</string>
+    <string name="str_stotram_rudra_adhyay">रुद्रधये स्तोत्रं</string>
+    <string name="str_stotram_sankatnashan_ganesh">संकटकाशन गणेश स्तोत्रं</string>
+    <string name="str_stotram_shani">शनि स्तोत्रं</string>
+    <string name="str_stotram_shri">श्री. स्तोत्रं</string>
+    <string name="str_stotram_sour">सौर स्तोत्रं</string>
+    <string name="str_txt_datta_aarathi">दत्त आरती</string>
+    <string name="str_txt_durga_devi_aarathi">दुर्गा देवी आरती</string>
+    <string name="str_txt_ganesh_aarathi">गणेश आरती</string>
+    <string name="str_txt_mangala_gauri_aarathi">मंगला गौरी आरती</string>
+    <string name="str_txt_maruti_aarathi">श्री मारुती आरती</string>
+    <string name="str_txt_satyanarayan_aarathi">सत्यनारायण देव आरती</string>
+    <string name="str_txt_shankar_aarathi">शंकर आरती</string>
+    <string name="str_txt_shriram_aarathi">श्रीराम आरती</string>
+    <string name="str_txt_vitthal_aarathi">विठ्ठल आरती</string>
+</resources>

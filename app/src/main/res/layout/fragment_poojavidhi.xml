@@ -1,0 +1,217 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.google.poojanam.Fragments.PoojavidhiFragment">
+
+
+    <LinearLayout
+        android:id="@+id/Lin_AudioAarathi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:background="@drawable/god_hanuman"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+        <FrameLayout
+            android:id="@+id/Lin_play"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.7"
+            android:layout_gravity="center">
+
+
+
+            <ImageView
+                android:id="@+id/imgpause"
+                android:paddingRight="12dp"
+                android:paddingLeft="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/pause"/>
+
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/imgplay"
+                android:paddingRight="12dp"
+                android:paddingLeft="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/play"/>
+
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:paddingLeft="15dp"
+                    android:id="@+id/txtTitleAarathi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="16sp"
+                    android:text="Ganesh Aarathi"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:weightSum="2"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.3">
+
+                        <ProgressBar
+                            android:id="@+id/progress_view"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:indeterminate="true"
+                            android:max="100"
+                            android:minHeight="50dp"
+                            android:minWidth="200dp"
+                            android:progress="1"
+                            android:visibility="gone"
+                            android:layout_centerVertical="true" />
+
+                        <LinearLayout
+                            android:id="@+id/Lin_Download"
+                            android:padding="10dp"
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:weightSum="3"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/lin_background">
+
+                            <TextView
+                                android:layout_weight="0.5"
+                                android:textSize="25dp"
+                                android:textColor="@color/colorBlack"
+                                android:text="Downloading.."
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/txtDownloadTitle"/>
+
+                            <TextView
+                                android:layout_weight="1.2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/txtProgress"
+                                android:textSize="16sp"
+                                android:text="0%"
+                                android:textColor="@color/colorBlack"/>
+
+
+                            <ImageButton
+                                android:layout_weight="1.3"
+                                android:src="@drawable/error"
+                                android:background="@null"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/imgcanceldown" />
+
+                        </LinearLayout>
+
+
+                        <SeekBar
+                            android:visibility="gone"
+                            android:id="@+id/seekbarPoojavidhi"
+                            android:layout_weight="0.3"
+                            android:layout_below="@+id/txtAarathi"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:theme="@style/MySeekBarTheme" />
+
+
+                    </FrameLayout>
+
+                    <TextView
+                        android:layout_marginRight="10dp"
+                        android:id="@+id/txtDur"
+                        android:layout_gravity="right"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="1.7"
+                        android:textColor="@color/colorWhite" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Lin_AudioAarathi">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="15dp"
+        android:layout_below="@+id/Lin_AudioAarathi"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+                android:layout_marginBottom="10dp" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/title_detail_name"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:id="@+id/txtTitle_pujaVidhi"
+            android:textColor="@color/colorBlack"/>
+        
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/txtDetail_pujaVidhi"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp"
+            android:lineSpacingExtra="5dp"
+            android:text="@string/title_detail"/>
+
+
+           </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+</RelativeLayout>
